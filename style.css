@@ -1,0 +1,108 @@
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: lightblue;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  background-image: linear-gradient(to right, red, yellow);
+}
+
+a:hover  {
+  color: green;
+  text-decoration: underline;
+  background-image: linear-gradient(to right, red , yellow, transparent 50%);
+}
+
+body {
+  background-color: white;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+}
+
+div {
+  display: block;
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+  background-size: cover;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.white {
+  color: white;
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  border: 1px solid lightgrey;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#link-container {
+    text-align: center;
+}
+#link {
+    display: inline-block;
+    padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
